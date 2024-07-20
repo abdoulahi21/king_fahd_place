@@ -1,0 +1,81 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.hero {
+    background: url('https://media-cdn.tripadvisor.com/media/photo-s/09/51/77/99/king-fahd-palace.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.about, .services {
+    padding: 50px 0;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    width: 30%;
+    padding: 20px;
+    background: #f4f4f4;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
